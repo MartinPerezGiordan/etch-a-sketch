@@ -1,26 +1,30 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
-color: #c3ad8f;
+    color: #c3ad8f;
     font-family: Georgia, serif;
     font-size: 4em;
-    line-height: 1.2;
-    padding: 20px;
     -webkit-text-stroke: 0.8px #b38e6b;
     text-decoration: underline;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 50px;
 }
 
 #container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    margin-bottom: 200px;
 }
+
 #gridSizeInput {
     padding: 10px 20px;
     font-size: 16px;
@@ -95,4 +99,9 @@ button.hover-effect {
 
 .active {
     background-color: #9d8e7d;
+}
+
+#footer{
+color: #6b4c20;
+margin: 30px;
 }
