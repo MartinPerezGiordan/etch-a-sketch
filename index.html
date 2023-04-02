@@ -9,6 +9,26 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
+    <h1>Etch a Sketch</h1>
+    <div id="container">
+        <div id="options">
+            <div id="changeSize">
+                <input type="number" placeholder="Grid size" id="gridSizeInput">
+                <button id="btnChange">Change</button>
+            </div>
+            <div id="currentSize"></div>
+            <div id="buttonContainer">
+                <button id="btnClear">Clear</button>
+                <button id="btnEraser">Eraser</button>
+            </div>
+
+            <label for="color-picker">Pick a brush color:</label>
+            <input type="color" id="color-picker" name="color-picker" value="#9d8e7d">
+
+        </div>
+
+
+        <div id="grid"></div>
+    </div>
 </body>
 </html>
